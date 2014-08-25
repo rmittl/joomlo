@@ -11,24 +11,30 @@
   
   <url>
     <loc>http://www.joomlo.de/about/</loc>
-    <lastmod>2014-08-25T18:32:05+02:00</lastmod>
+    <lastmod>2014-08-25T18:34:58+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.joomlo.de/impressum/</loc>
-    <lastmod>2014-08-25T18:32:05+02:00</lastmod>
+    <lastmod>2014-08-25T18:34:58+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.joomlo.de/</loc>
-    <lastmod>2014-08-25T18:32:05+02:00</lastmod>
+    <lastmod>2014-08-25T18:34:58+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
+  
+  <url>
+    <loc>http://www.joomlo.de/google3ca60e53c4efdbfa.html</loc>
+    <lastmod>2014-08-25T18:34:35Z</lastmod>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
