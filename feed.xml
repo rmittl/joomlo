@@ -5,8 +5,8 @@
     <description>Ein Blog rund um Joomla - Lösungen, Hilfe und Support - Joomla besser verstehen.</description>
     <link>http://www.joomlo.de/</link>
     <atom:link href="http://www.joomlo.de/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Oct 2014 17:19:28 +0200</pubDate>
-    <lastBuildDate>Thu, 16 Oct 2014 17:19:28 +0200</lastBuildDate>
+    <pubDate>Thu, 16 Oct 2014 17:20:47 +0200</pubDate>
+    <lastBuildDate>Thu, 16 Oct 2014 17:20:47 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -25,7 +25,7 @@
   &lt;li&gt;sucht nach der Toolbar
 &lt;img src=&quot;/assets/module-manager.png&quot; alt=&quot;&quot; title=&quot;Joomla! Buttonleiste&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&lt;/li&gt;
   &lt;li&gt;setzt das Häcken für veröffentlicht
-&lt;img src=&quot;/assets/hacken_toolbar.png&quot; alt=&quot;&quot; title=&quot;Joomla! Buttonleiste&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;img src=&quot;/assets/haken_toolbar.png&quot; alt=&quot;&quot; title=&quot;Joomla! Buttonleiste&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Fertig und alles ist wie gewohnt.&lt;/p&gt;
