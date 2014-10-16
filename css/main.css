@@ -412,3 +412,10 @@ a:visited { color: #205caa; }
 #gad {
   margin: 20px 50px;
 }
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+
