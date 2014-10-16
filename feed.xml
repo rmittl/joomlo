@@ -5,9 +5,39 @@
     <description>Ein Blog rund um Joomla - Lösungen, Hilfe und Support - Joomla besser verstehen.</description>
     <link>http://www.joomlo.de/</link>
     <atom:link href="http://www.joomlo.de/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Oct 2014 15:28:56 +0200</pubDate>
-    <lastBuildDate>Thu, 16 Oct 2014 15:28:56 +0200</lastBuildDate>
+    <pubDate>Thu, 16 Oct 2014 15:57:05 +0200</pubDate>
+    <lastBuildDate>Thu, 16 Oct 2014 15:57:05 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Buttonleiste im Joomla Backend wieder anzeigen</title>
+        <description>&lt;p&gt;Es gibt verschiedene Gründe warum die Buttonleiste Adminbereich des Joomla Backends fehlen, hierzu zählen auch die Speichern &amp;amp; Schließen Button im Beitrag. Falls man gerade auf die neueste Joomla 3 von 2.5 das Upgrade durchgeführt hat, könnte der Cache die Ursache sein. Um dies zu lösen einfach Joomla und Browsercache leeren und die Seite mit F5 neu laden. Beim Einsatz verschiedener Komponenten wie z. B. JSN Poweradminmoduls oder einfach falscher Bedienung kann dieses Verhalten auch auftreten.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.joomlo.de/images/buttonleiste.png&quot; alt=&quot;&quot; title=&quot;Joomla Buttonleiste&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Zum Einblenden geht man wie folgt vor:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;man geht auf im Joomla Backend auf Erweiterung -&amp;gt; Module
+&lt;img src=&quot;../images/erweiterung-module&quot; title=&quot;Joomla Module Manager&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;dann klickt man im linken Bereich auf Administrator&lt;/li&gt;
+  &lt;li&gt;sucht nach der Toolbar&lt;/li&gt;
+  &lt;li&gt;setzt das Häcken für veröffentlicht&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fertig, wola und alles wie gewohnt.&lt;/p&gt;
+
+&lt;p&gt;hrhttp://www.joomlo.de&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 16 Oct 2014 17:40:14 +0200</pubDate>
+        <link>http://www.joomlo.de/joomla/2014/10/16/buttonleiste-im-joomla-backend%20wieder-anzeigen/</link>
+        <guid isPermaLink="true">http://www.joomlo.de/joomla/2014/10/16/buttonleiste-im-joomla-backend%20wieder-anzeigen/</guid>
+        
+        
+        <category>joomla</category>
+        
+      </item>
     
       <item>
         <title>Joomla - ein Content Management System</title>
@@ -17,33 +47,6 @@
         <pubDate>Mon, 25 Aug 2014 19:00:14 +0200</pubDate>
         <link>http://www.joomlo.de/joomla/2014/08/25/seblod-neuen-beitrag-automatisch-kategorie-hinzufuegen%202/</link>
         <guid isPermaLink="true">http://www.joomlo.de/joomla/2014/08/25/seblod-neuen-beitrag-automatisch-kategorie-hinzufuegen%202/</guid>
-        
-        
-        <category>joomla</category>
-        
-      </item>
-    
-      <item>
-        <title>Buttonleiste im Joomla Backend wieder anzeigen</title>
-        <description>&lt;p&gt;Es gibt verschiedene Gründe warum die Buttonleiste Adminbereich des Joomla Backends fehlen, hierzu zählen auch die Speichern &amp;amp; Schließen Button im Beitrag. Falls man gerade auf die neueste Joomla 3 von 2.5 geupgraded hat, könnte der Cache die Ursache sein. Um dies zu lösen einfach Joomla und Browsercache leeren und die Seite mit F5 neu laden. Beim Einsatz verschiedener Komponenten wie z. B. JSN Poweradminmoduls oder einfach falscher Bedienung kann dieses Verhalten auch auftreten.&lt;/p&gt;
-
-&lt;p&gt;Zum Einblenden geht man wie folgt vor:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Man geht auf im Joomla Backend auf Erweiterung -&amp;gt; Module&lt;/li&gt;
-  &lt;li&gt;dann klickt man im linken Bereich auf Administrator&lt;/li&gt;
-  &lt;li&gt;Sucht nach der Toolbar&lt;/li&gt;
-  &lt;li&gt;Setzt das Häcken für veröffentlicht&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Fertig, wola und alles wie gewohnt.&lt;/p&gt;
-
-&lt;p&gt;http://www.joomlo.de&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 25 Aug 2014 19:00:14 +0200</pubDate>
-        <link>http://www.joomlo.de/joomla/2014/08/25/buttonleiste-im-joomla-backend%20wieder-anzeigen/</link>
-        <guid isPermaLink="true">http://www.joomlo.de/joomla/2014/08/25/buttonleiste-im-joomla-backend%20wieder-anzeigen/</guid>
         
         
         <category>joomla</category>
