@@ -11,6 +11,14 @@
   </url>
   
   <url>
+    <loc>http://www.joomlo.de/2014/10/16/Joomla-Update/</loc>
+    
+    <lastmod>2014-10-16T17:40:14+02:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://www.joomlo.de/joomla/2014/08/25/seblod-neuen-beitrag-automatisch-kategorie-hinzufuegen%202/</loc>
     
     <lastmod>2014-08-25T19:00:14+02:00</lastmod>
@@ -29,21 +37,21 @@
   
   <url>
     <loc>http://www.joomlo.de/about/</loc>
-    <lastmod>2014-10-20T10:19:17+02:00</lastmod>
+    <lastmod>2014-10-20T16:44:22+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.joomlo.de/impressum/</loc>
-    <lastmod>2014-10-20T10:19:17+02:00</lastmod>
+    <lastmod>2014-10-20T16:44:22+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.joomlo.de/</loc>
-    <lastmod>2014-10-20T10:19:17+02:00</lastmod>
+    <lastmod>2014-10-20T16:44:22+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

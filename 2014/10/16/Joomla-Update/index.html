@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Buttonleiste im Joomla! Backend wieder anzeigen</title>
+    <title>Joomla! Update 2.5 oder 3.x.</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Wie zeige ich die Toolbar im Joomla! Backend über den Modulemanager an.">
-    <link rel="canonical" href="http://www.joomlo.de/joomla!/2014/10/16/buttonleiste-im-joomla-backend%20wieder-anzeigen/">
+    <meta name="description" content="Dies ist einen Video-Anleitung über die Vorgehensweise eines Joomla! Updates. entweder von 2.5 oder 3.0.">
+    <link rel="canonical" href="http://www.joomlo.de/2014/10/16/Joomla-Update/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -63,29 +63,15 @@
 
 
   <header class="post-header">
-    <h1>Buttonleiste im Joomla! Backend wieder anzeigen</h1>
-    <p class="meta">Oct 16, 2014 • Wie zeige ich die Toolbar im Joomla! Backend über den Modulemanager an.</p>
+    <h1>Joomla! Update 2.5 oder 3.x.</h1>
+    <p class="meta">Oct 16, 2014 • Dies ist einen Video-Anleitung über die Vorgehensweise eines Joomla! Updates. entweder von 2.5 oder 3.0.</p>
   </header>
 
   <article class="post-content">
-  <p>Es gibt verschiedene Gründe warum die Buttonleiste Adminbereich des Joomla! Backends fehlen, hierzu zählen auch die Speichern &amp; Schließen Button im Beitrag. Falls man gerade auf die neueste Joomla! 3 von 2.5 das Upgrade durchgeführt hat, könnte der Cache die Ursache sein. Um dies zu lösen einfach Joomla! und Browsercache leeren und die Seite mit F5 neu laden. Beim Einsatz verschiedener Komponenten wie z. B. JSN Poweradminmoduls oder einfach falscher Bedienung kann dieses Verhalten auch auftreten.</p>
+  <p>Mit dem folgenden Video zeige wie man ein Joomla 3 Seite updatet. Viel Spass beim Joomla Update</p>
 
+<iframe width="420" height="315" src="//www.youtube.com/embed/iOQhQpk5m74" frameborder="0" allowfullscreen=""></iframe>
 <p><img src="/assets/module-manager.png" alt="" title="Joomla! Buttonleiste" width="" height="" /></p>
-
-<p>Zum Einblenden geht man wie folgt vor:</p>
-
-<ol>
-  <li>man geht auf im Joomla! Backend auf Erweiterung -&gt; Module
-<br /><img src="/assets/erweiterung_module.png" alt="Erweiterung Module" title="Joomla! Buttonleiste" width="" height="" /><br /></li>
-  <li>dann klickt man im linken Bereich auf Administrator
-<br /><img src="/assets/module_administrator.png" alt="" title="Joomla! Buttonleiste" width="" height="" /><br /></li>
-  <li>sucht nach der Toolbar
-<br /><img src="/assets/suchen_toolbar.png" alt="" title="Joomla! Buttonleiste" width="" height="" /><br /></li>
-  <li>setzte das Häcken bei Status für veröffentlicht
-<br /><img src="/assets/haken_toolbar.png" alt="" title="Joomla! Buttonleiste" width="" height="" /><br /></li>
-</ol>
-
-<p>Fertig und alles ist wie gewohnt.</p>
 
 <div id="comments">
 <h2>Kommentare</h2>
@@ -102,7 +88,7 @@ function loadComments(data) {
 // ...
 }
 
-$.ajax("https://api.github.com/repos/rmittl/joomlo/issues/1/comments", {
+$.ajax("https://api.github.com/repos/rmittl/joomlo/issues/2/comments", {
 headers: {Accept: "application/vnd.github.full+json"},
 success: function(msg){
 loadComments(msg);
@@ -116,7 +102,7 @@ function loadComments(data) {
 for (var i=0; i<data.length; i++) {
 var cuser = data[i].user.login;
 var cuserlink = "https://www.github.com/" + data[i].user.login;
-var clink = "https://github.com/rmittl/joomlo/issues/1#issuecomment" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
+var clink = "https://github.com/rmittl/joomlo/issues/2#issuecomment" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
 var cbody = data[i].body_html;
 var cavatarlink = data[i].user.avatar_url;
 var cdate = Date.parse(data[i].created_at).toString("yyyy-MM-dd HH:mm:ss");
