@@ -5,8 +5,8 @@
     <description>Ein Blog rund um Joomla! - Lösungen, Hilfe und Support - Joomla! besser verstehen.</description>
     <link>http://www.joomlo.de/</link>
     <atom:link href="http://www.joomlo.de/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 Oct 2014 10:17:00 +0200</pubDate>
-    <lastBuildDate>Mon, 20 Oct 2014 10:17:00 +0200</lastBuildDate>
+    <pubDate>Mon, 20 Oct 2014 10:19:17 +0200</pubDate>
+    <lastBuildDate>Mon, 20 Oct 2014 10:19:17 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -33,7 +33,7 @@
 &lt;div id=&quot;comments&quot;&gt;
 &lt;h2&gt;Kommentare&lt;/h2&gt;
 &lt;div id=&quot;header&quot;&gt;
-Du möchtest einen Kommentar hinterlassen? &lt;a href=&quot;https://github.com/rmittl/joomlo.de/issues/&quot;&gt;Dann klick hier! &lt;/a&gt;Bei joomlo.de wird über GitHub die Kommentarfunktion realisiert (Ein GitHub Account wird benötigt).
+Du möchtest einen Kommentar hinterlassen? &lt;a href=&quot;https://github.com/rmittl/joomlo/issues/&quot;&gt;Dann klick hier! &lt;/a&gt;Bei joomlo.de wird über GitHub die Kommentarfunktion realisiert (Ein GitHub Account wird benötigt).
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;http://datejs.googlecode.com/svn/trunk/build/date-en-US.js&quot;&gt;&lt;/script&gt;
@@ -45,7 +45,7 @@ function loadComments(data) {
 // ...
 }
 
-$.ajax(&quot;https://api.github.com/repos/rmittl/joomlo.de/issues/1/comments&quot;, {
+$.ajax(&quot;https://api.github.com/repos/rmittl/joomlo/issues/1/comments&quot;, {
 headers: {Accept: &quot;application/vnd.github.full+json&quot;},
 success: function(msg){
 loadComments(msg);
@@ -59,7 +59,7 @@ function loadComments(data) {
 for (var i=0; i&lt;data.length; i++) {
 var cuser = data[i].user.login;
 var cuserlink = &quot;https://www.github.com/&quot; + data[i].user.login;
-var clink = &quot;https://github.com/rmittl/joomlo.de/issues/1#issuecomment&quot; + data[i].url.substring(data[i].url.lastIndexOf(&quot;/&quot;)+1);
+var clink = &quot;https://github.com/rmittl/joomlo/issues/1#issuecomment&quot; + data[i].url.substring(data[i].url.lastIndexOf(&quot;/&quot;)+1);
 var cbody = data[i].body_html;
 var cavatarlink = data[i].user.avatar_url;
 var cdate = Date.parse(data[i].created_at).toString(&quot;yyyy-MM-dd HH:mm:ss&quot;);
