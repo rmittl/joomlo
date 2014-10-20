@@ -5,8 +5,8 @@
     <description>Ein Blog rund um Joomla! - Lösungen, Hilfe und Support - Joomla! besser verstehen.</description>
     <link>http://www.joomlo.de/</link>
     <atom:link href="http://www.joomlo.de/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 Oct 2014 17:02:03 +0200</pubDate>
-    <lastBuildDate>Mon, 20 Oct 2014 17:02:03 +0200</lastBuildDate>
+    <pubDate>Mon, 20 Oct 2014 17:07:27 +0200</pubDate>
+    <lastBuildDate>Mon, 20 Oct 2014 17:07:27 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -86,7 +86,7 @@ $(&quot;#comments&quot;).append(&quot;&lt;div class=&#39;comment&#39;&gt;&lt;div
 &lt;div id=&quot;comments&quot;&gt;
 &lt;h2&gt;Kommentare&lt;/h2&gt;
 &lt;div id=&quot;header&quot;&gt;
-Du möchtest einen Kommentar hinterlassen? &lt;a href=&quot;https://github.com/rmittl/joomlo/issues/&quot;&gt;Dann klick hier! &lt;/a&gt;Bei joomlo.de wird über GitHub die Kommentarfunktion realisiert (Ein GitHub Account wird benötigt).
+Du möchtest einen Kommentar hinterlassen? &lt;a href=&quot;https://github.com/rmittl/joomlo/issues/1&quot;&gt;Dann klick hier! &lt;/a&gt;Bei joomlo.de wird über GitHub die Kommentarfunktion realisiert (Ein GitHub Account wird benötigt).
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;http://datejs.googlecode.com/svn/trunk/build/date-en-US.js&quot;&gt;&lt;/script&gt;
