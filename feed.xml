@@ -5,13 +5,15 @@
     <description>Ein Blog rund um Joomla! - Lösungen, Hilfe und Support - Joomla! besser verstehen.</description>
     <link>http://www.joomlo.de/</link>
     <atom:link href="http://www.joomlo.de/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 Oct 2014 17:07:27 +0200</pubDate>
-    <lastBuildDate>Mon, 20 Oct 2014 17:07:27 +0200</lastBuildDate>
+    <pubDate>Tue, 21 Oct 2014 07:24:07 +0200</pubDate>
+    <lastBuildDate>Tue, 21 Oct 2014 07:24:07 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Joomla! Update 2.5 oder 3.x</title>
-        <description>&lt;p&gt;Mit dem folgenden Video zeige wie man ein Joomla 3 Seite updatet. Viel Spass beim Joomla Update&lt;/p&gt;
+        <description>&lt;p&gt;Mit dem folgenden Video zeige wie man ein Joomla 3 Seite updatet. Bevor man das Update einspielt, sollte man ein vollständiges Backup der Joomla Seite erstellen.&lt;/p&gt;
+
+&lt;p&gt;Viel Spass beim Joomla! Update!&lt;/p&gt;
 
 &lt;iframe width=&quot;720&quot; height=&quot;539&quot; src=&quot;//www.youtube.com/embed/iOQhQpk5m74&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
