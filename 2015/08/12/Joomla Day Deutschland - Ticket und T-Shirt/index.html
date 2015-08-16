@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Joomlo - Joomla! einfach besser verstehen.</title>
+    <title>JoomlaDay Deutschland 2015 mit Pre-Event Party</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Ein Blog rund um Joomla! - Lösungen, Hilfe und Support - Joomla! besser verstehen.">
-    <link rel="canonical" href="http://www.joomlo.de/">
+    <meta name="description" content="JoomlaDay sind Tage mit attraktiven Sessions, sowie guter Austausch unter Joomla Gleichgesinnten.">
+    <link rel="canonical" href="http://www.joomlo.de/2015/08/12/Joomla%20Day%20Deutschland%20-%20Ticket%20und%20T-Shirt/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -59,42 +59,68 @@
     <div class="page-content">
       
       <div class="wrap">
-      <div class="home">
+      <div class="post">
 
-  <h1>Posts</h1>
 
-  <ul class="posts">
-    
-      <li>
-        <span class="post-date">Aug 12, 2015</span>
-        <a class="post-link" href="/2015/08/12/Joomla%20Day%20Deutschland%20-%20Ticket%20und%20T-Shirt/">JoomlaDay Deutschland 2015 mit Pre-Event Party</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Oct 20, 2014</span>
-        <a class="post-link" href="/2014/10/20/Joomla-Update/">Joomla! Update 2.5 oder 3.x</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Oct 16, 2014</span>
-        <a class="post-link" href="/joomla!/2014/10/16/buttonleiste-im-joomla-backend%20wieder-anzeigen/">Buttonleiste im Joomla! Backend wieder anzeigen</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Aug 25, 2014</span>
-        <a class="post-link" href="/joomla/2014/08/25/seblod-neuen-beitrag-automatisch-kategorie-hinzufuegen%202/">Joomla - ein Content Management System</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Aug 25, 2014</span>
-        <a class="post-link" href="/seblod/2014/08/25/Joomla...../">Seblod - Neuen Beitrag automatisch einer Kategorie zuorden.</a>
-      </li>
-    
-  </ul>
+  <header class="post-header">
+    <h1>JoomlaDay Deutschland 2015 mit Pre-Event Party</h1>
+    <p class="meta">Aug 12, 2015 • JoomlaDay sind Tage mit attraktiven Sessions, sowie guter Austausch unter Joomla Gleichgesinnten.</p>
+  </header>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  <article class="post-content">
+  <h2>Ticket für JoomlaDay Deutschland in Hamburg + T-Shirt</h2>
 
+<p>Wer jetzt sich noch keine Ticket für den JoomlaDay Deutschland gesichert hat, sollte nicht mehr zögern, denn nur bis 19.08.15 ist ein T-Shirt gratis dazu.  </p>
+
+<p>Auf der offizellen Joomladay Seite das Ticket ordern:
+<a href="http://www.joomladay.de/tickets-kaufen">JoomlaDay Tickets</a></p>
+
+<p>Anmeldung für die Pre-Event Party:
+<a href="http://www.joomladay.de/programm/feedback-pre-event-17-09" title="">Pre-Event Party</a></p>
+
+<div id="comments">
+<h2>Kommentare</h2>
+<div id="header">
+Du möchtest einen Kommentar hinterlassen? <a href="https://github.com/rmittl/joomlo/issues/2">Dann klick hier! </a>Bei joomlo.de wird über GitHub die Kommentarfunktion realisiert (Ein GitHub Account wird benötigt).
 </div>
+</div>
+<script type="text/javascript" src="http://datejs.googlecode.com/svn/trunk/build/date-en-US.js"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<script type="text/javascript">
+function loadComments(data) {
+// ...
+}
+
+$.ajax("https://api.github.com/repos/rmittl/joomlo/issues/2/comments", {
+headers: {Accept: "application/vnd.github.full+json"},
+success: function(msg){
+loadComments(msg);
+}
+});
+</script>
+
+<script type="text/javascript">
+
+function loadComments(data) {
+for (var i=0; i<data.length; i++) {
+var cuser = data[i].user.login;
+var cuserlink = "https://www.github.com/" + data[i].user.login;
+var clink = "https://github.com/rmittl/joomlo/issues/2#issuecomment" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
+var cbody = data[i].body_html;
+var cavatarlink = data[i].user.avatar_url;
+var cdate = Date.parse(data[i].created_at).toString("yyyy-MM-dd HH:mm:ss");
+
+$("#comments").append("<div class='comment'><div class='commentheader'><div class='commentgravatar'>" + '<img src="' + cavatarlink + '" alt="" width="20" height="20">' + "</div><a class='commentuser' href=\""+ cuserlink + "\">" + cuser + "</a><a class='commentdate' href=\"" + clink + "\">" + cdate + "</a></div><div class='commentbody'>" + cbody + "</div></div>");
+}
+}
+</script>
+
+
+  </article>
+  </div>
+
 
       </div>
     </div>

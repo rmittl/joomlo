@@ -5,9 +5,68 @@
     <description>Ein Blog rund um Joomla! - Lösungen, Hilfe und Support - Joomla! besser verstehen.</description>
     <link>http://www.joomlo.de/</link>
     <atom:link href="http://www.joomlo.de/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 21 Oct 2014 11:36:52 +0200</pubDate>
-    <lastBuildDate>Tue, 21 Oct 2014 11:36:52 +0200</lastBuildDate>
+    <pubDate>Sun, 16 Aug 2015 11:13:13 +0200</pubDate>
+    <lastBuildDate>Sun, 16 Aug 2015 11:13:13 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>JoomlaDay Deutschland 2015 mit Pre-Event Party</title>
+        <description>&lt;h2&gt;Ticket für JoomlaDay Deutschland in Hamburg + T-Shirt&lt;/h2&gt;
+
+&lt;p&gt;Wer jetzt sich noch keine Ticket für den JoomlaDay Deutschland gesichert hat, sollte nicht mehr zögern, denn nur bis 19.08.15 ist ein T-Shirt gratis dazu.  &lt;/p&gt;
+
+&lt;p&gt;Auf der offizellen Joomladay Seite das Ticket ordern:
+&lt;a href=&quot;http://www.joomladay.de/tickets-kaufen&quot;&gt;JoomlaDay Tickets&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Anmeldung für die Pre-Event Party:
+&lt;a href=&quot;http://www.joomladay.de/programm/feedback-pre-event-17-09&quot; title=&quot;&quot;&gt;Pre-Event Party&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id=&quot;comments&quot;&gt;
+&lt;h2&gt;Kommentare&lt;/h2&gt;
+&lt;div id=&quot;header&quot;&gt;
+Du möchtest einen Kommentar hinterlassen? &lt;a href=&quot;https://github.com/rmittl/joomlo/issues/2&quot;&gt;Dann klick hier! &lt;/a&gt;Bei joomlo.de wird über GitHub die Kommentarfunktion realisiert (Ein GitHub Account wird benötigt).
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://datejs.googlecode.com/svn/trunk/build/date-en-US.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+function loadComments(data) {
+// ...
+}
+
+$.ajax(&quot;https://api.github.com/repos/rmittl/joomlo/issues/2/comments&quot;, {
+headers: {Accept: &quot;application/vnd.github.full+json&quot;},
+success: function(msg){
+loadComments(msg);
+}
+});
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+function loadComments(data) {
+for (var i=0; i&lt;data.length; i++) {
+var cuser = data[i].user.login;
+var cuserlink = &quot;https://www.github.com/&quot; + data[i].user.login;
+var clink = &quot;https://github.com/rmittl/joomlo/issues/2#issuecomment&quot; + data[i].url.substring(data[i].url.lastIndexOf(&quot;/&quot;)+1);
+var cbody = data[i].body_html;
+var cavatarlink = data[i].user.avatar_url;
+var cdate = Date.parse(data[i].created_at).toString(&quot;yyyy-MM-dd HH:mm:ss&quot;);
+
+$(&quot;#comments&quot;).append(&quot;&lt;div class=&#39;comment&#39;&gt;&lt;div class=&#39;commentheader&#39;&gt;&lt;div class=&#39;commentgravatar&#39;&gt;&quot; + &#39;&lt;img src=&quot;&#39; + cavatarlink + &#39;&quot; alt=&quot;&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&#39; + &quot;&lt;/div&gt;&lt;a class=&#39;commentuser&#39; href=\&quot;&quot;+ cuserlink + &quot;\&quot;&gt;&quot; + cuser + &quot;&lt;/a&gt;&lt;a class=&#39;commentdate&#39; href=\&quot;&quot; + clink + &quot;\&quot;&gt;&quot; + cdate + &quot;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#39;commentbody&#39;&gt;&quot; + cbody + &quot;&lt;/div&gt;&lt;/div&gt;&quot;);
+}
+}
+&lt;/script&gt;
+
+</description>
+        <pubDate>Wed, 12 Aug 2015 18:40:14 +0200</pubDate>
+        <link>http://www.joomlo.de/2015/08/12/Joomla%20Day%20Deutschland%20-%20Ticket%20und%20T-Shirt/</link>
+        <guid isPermaLink="true">http://www.joomlo.de/2015/08/12/Joomla%20Day%20Deutschland%20-%20Ticket%20und%20T-Shirt/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Joomla! Update 2.5 oder 3.x</title>
