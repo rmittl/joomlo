@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>about me</title>
+  <title>Joomla! Update 2.5 oder 3.x</title>
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="Ein Blog rund um Joomla! - Lösungen, Hilfe und Support - Joomla! besser verstehen.">
-  <link rel="canonical" href="http://www.joomlo.de/about/">
+  <meta name="description" content="Dies ist einen Video-Anleitung über die Vorgehensweise eines Joomla! Updates, in diesem Beispiel Joomla 3.3.x">
+  <link rel="canonical" href="http://www.joomlo.de/2014/10/20/Joomla-Update/">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/css/main.css">
@@ -24,24 +24,26 @@
 
       <a class="site-title" href="/">Joomlo - Joomla! einfach besser verstehen.</a>
 
-
       <nav class="site-nav">
         <a href="#" class="menu-icon">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 15"
             enable-background="new 0 0 18 15" xml:space="preserve">
             <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
-                                    h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
             <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
-                                    h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
             <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
-                                    c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"
-            />
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
           </svg>
         </a>
         <div class="trigger">
+
           <a class="page-link" href="/about/">about me</a>
           <a class="page-link" href="/impressum/">impressum</a>
           <a class="page-link" href="/datenschutz/">datenschutz</a>
+
+
+
         </div>
       </nav>
 
@@ -57,34 +59,76 @@
     <div class="wrap">
       <div class="post">
 
+
         <header class="post-header">
-          <h1>about me</h1>
+          <h1>Joomla! Update 2.5 oder 3.x</h1>
+          <p class="meta">Oct 20, 2014 • Dies ist einen Video-Anleitung über die Vorgehensweise eines Joomla! Updates, in diesem Beispiel
+            Joomla 3.3.x</p>
         </header>
 
         <article class="post-content">
-          <p>Joomla! ist das zweit weit verbreitete Contentmanagementsystem auf welches ich mich spezialisiert habe. Dieser
-            Blog soll Ihnen helfen Joomla! besser zu verstehen.</p>
+          <h2>Joomla Update mit Joomla Aktualisierung (Update Manager)</h2>
 
-          <p>Als Freelancer unterstütze ich in Supportfragen, entwickle Webseiten in Joomla! und berate im Bereich Internet.
-          </p>
+          <p>Mit dem folgenden Video zeige wie man ein Joomla 3 Seite updatet. Bevor man das Update einspielt, sollte man ein
+            vollständiges Backup der Joomla Seite erstellen.</p>
 
-          <p>Mehr über mich gibt es bei
-            <a href="http://mittl-medien.de/ueber-mich">mittl-medien.de/ueber-mich</a>
-          </p>
+          <iframe width="720" height="539" src="//www.youtube.com/embed/iOQhQpk5m74" frameborder="0" allowfullscreen=""></iframe>
+
+          <h2>Joomla Update mit Update Package über Erweiterungen</h2>
+
+          <p>Diese Installationsmethode des Joomla Update kann man wählen, falls die Joomla Aktualisierung über den Update Manager
+            nicht erfolgreich war.</p>
+
+          <iframe width="720" height="539" src="//www.youtube.com/embed/mMlTWLXWamc" frameborder="0" allowfullscreen=""></iframe>
+
+          <p>Viel Erfolg bei Ihrem Joomla Update</p>
+
+          <div id="comments">
+            <h2>Kommentare</h2>
+            <div id="header">
+              Du möchtest einen Kommentar hinterlassen?
+              <a href="https://github.com/rmittl/joomlo/issues/2">Dann klick hier! </a>Bei joomlo.de wird über GitHub die Kommentarfunktion realisiert (Ein GitHub Account wird
+              benötigt).
+            </div>
+          </div>
+          <script type="text/javascript" src="http://datejs.googlecode.com/svn/trunk/build/date-en-US.js"></script>
+
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+          <script type="text/javascript">
+            function loadComments(data) {
+              // ...
+            }
+
+            $.ajax("https://api.github.com/repos/rmittl/joomlo/issues/2/comments", {
+              headers: { Accept: "application/vnd.github.full+json" },
+              success: function (msg) {
+                loadComments(msg);
+              }
+            });
+          </script>
+
+          <script type="text/javascript">
+
+            function loadComments(data) {
+              for (var i = 0; i < data.length; i++) {
+                var cuser = data[i].user.login;
+                var cuserlink = "https://www.github.com/" + data[i].user.login;
+                var clink = "https://github.com/rmittl/joomlo/issues/2#issuecomment" + data[i].url.substring(data[i].url.lastIndexOf("/") + 1);
+                var cbody = data[i].body_html;
+                var cavatarlink = data[i].user.avatar_url;
+                var cdate = Date.parse(data[i].created_at).toString("yyyy-MM-dd HH:mm:ss");
+
+                $("#comments").append("<div class='comment'><div class='commentheader'><div class='commentgravatar'>" + '<img src="' + cavatarlink + '" alt="" width="20" height="20">' + "</div><a class='commentuser' href=\"" + cuserlink + "\">" + cuser + "</a><a class='commentdate' href=\"" + clink + "\">" + cdate + "</a></div><div class='commentbody'>" + cbody + "</div></div>");
+              }
+            }
+          </script>
+
 
         </article>
-
-<<<<<<< HEAD
       </div>
-=======
-    <div class="footer-col-1 column">
-      <ul>
-        <li>Joomlo - Joomla! einfach besser verstehen.</li>
-        <li><a href="mailto:info@mittl-medien.de">info@mittl-medien.de</a></li>
-        <li><a href="tel:004971634089994">0049 (0)7163 408 99 94</a></li>
-        <li><a href="http://mittl-medien.de">mittl-medien.de</a></li>
-      </ul>
->>>>>>> Update Telefonnummer to Ebersbach
+
+
     </div>
   </div>
 
@@ -101,7 +145,7 @@
             <a href="mailto:info@mittl-medien.de">info@mittl-medien.de</a>
           </li>
           <li>
-            <a href="tel:004971634089994">0049 (0)7163 408 99 94</a>
+            <a href="tel:004971174009879">0049 (0) 711 74 00 98 79</a>
           </li>
           <li>
             <a href="http://mittl-medien.de">mittl-medien.de</a>
@@ -163,9 +207,4 @@
 
 </body>
 
-<<<<<<< HEAD
 </html>
-=======
-    </body>
-</html>
->>>>>>> Update Telefonnummer to Ebersbach

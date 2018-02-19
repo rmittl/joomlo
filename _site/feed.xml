@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joomlo - Joomla! einfach besser verstehen.</title>
+    <description>Ein Blog rund um Joomla! - Lösungen, Hilfe und Support - Joomla! besser verstehen.</description>
+    <link>http://www.joomlo.de/</link>
+    <atom:link href="http://www.joomlo.de/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 16 Aug 2015 11:13:13 +0200</pubDate>
+    <lastBuildDate>Sun, 16 Aug 2015 11:13:13 +0200</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>JoomlaDay Deutschland 2015 mit Pre-Event Party</title>
+        <description>&lt;h2&gt;Ticket für JoomlaDay Deutschland in Hamburg + T-Shirt&lt;/h2&gt;
+
+&lt;p&gt;Wer jetzt sich noch keine Ticket für den JoomlaDay Deutschland gesichert hat, sollte nicht mehr zögern, denn nur bis 19.08.15 ist ein T-Shirt gratis dazu.  &lt;/p&gt;
+
+&lt;p&gt;Auf der offizellen Joomladay Seite das Ticket ordern:
+&lt;a href=&quot;http://www.joomladay.de/tickets-kaufen&quot;&gt;JoomlaDay Tickets&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Anmeldung für die Pre-Event Party:
+&lt;a href=&quot;http://www.joomladay.de/programm/feedback-pre-event-17-09&quot; title=&quot;&quot;&gt;Pre-Event Party&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id=&quot;comments&quot;&gt;
+&lt;h2&gt;Kommentare&lt;/h2&gt;
+&lt;div id=&quot;header&quot;&gt;
+Du möchtest einen Kommentar hinterlassen? &lt;a href=&quot;https://github.com/rmittl/joomlo/issues/2&quot;&gt;Dann klick hier! &lt;/a&gt;Bei joomlo.de wird über GitHub die Kommentarfunktion realisiert (Ein GitHub Account wird benötigt).
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://datejs.googlecode.com/svn/trunk/build/date-en-US.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+function loadComments(data) {
+// ...
+}
+
+$.ajax(&quot;https://api.github.com/repos/rmittl/joomlo/issues/2/comments&quot;, {
+headers: {Accept: &quot;application/vnd.github.full+json&quot;},
+success: function(msg){
+loadComments(msg);
+}
+});
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+function loadComments(data) {
+for (var i=0; i&lt;data.length; i++) {
+var cuser = data[i].user.login;
+var cuserlink = &quot;https://www.github.com/&quot; + data[i].user.login;
+var clink = &quot;https://github.com/rmittl/joomlo/issues/2#issuecomment&quot; + data[i].url.substring(data[i].url.lastIndexOf(&quot;/&quot;)+1);
+var cbody = data[i].body_html;
+var cavatarlink = data[i].user.avatar_url;
+var cdate = Date.parse(data[i].created_at).toString(&quot;yyyy-MM-dd HH:mm:ss&quot;);
+
+$(&quot;#comments&quot;).append(&quot;&lt;div class=&#39;comment&#39;&gt;&lt;div class=&#39;commentheader&#39;&gt;&lt;div class=&#39;commentgravatar&#39;&gt;&quot; + &#39;&lt;img src=&quot;&#39; + cavatarlink + &#39;&quot; alt=&quot;&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&#39; + &quot;&lt;/div&gt;&lt;a class=&#39;commentuser&#39; href=\&quot;&quot;+ cuserlink + &quot;\&quot;&gt;&quot; + cuser + &quot;&lt;/a&gt;&lt;a class=&#39;commentdate&#39; href=\&quot;&quot; + clink + &quot;\&quot;&gt;&quot; + cdate + &quot;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#39;commentbody&#39;&gt;&quot; + cbody + &quot;&lt;/div&gt;&lt;/div&gt;&quot;);
+}
+}
+&lt;/script&gt;
+
+</description>
+        <pubDate>Wed, 12 Aug 2015 18:40:14 +0200</pubDate>
+        <link>http://www.joomlo.de/2015/08/12/Joomla%20Day%20Deutschland%20-%20Ticket%20und%20T-Shirt/</link>
+        <guid isPermaLink="true">http://www.joomlo.de/2015/08/12/Joomla%20Day%20Deutschland%20-%20Ticket%20und%20T-Shirt/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Joomla! Update 2.5 oder 3.x</title>
+        <description>&lt;h2&gt;Joomla Update mit Joomla Aktualisierung (Update Manager)&lt;/h2&gt;
+
+&lt;p&gt;Mit dem folgenden Video zeige wie man ein Joomla 3 Seite updatet. Bevor man das Update einspielt, sollte man ein vollständiges Backup der Joomla Seite erstellen.&lt;/p&gt;
+
+&lt;iframe width=&quot;720&quot; height=&quot;539&quot; src=&quot;//www.youtube.com/embed/iOQhQpk5m74&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Joomla Update mit Update Package über Erweiterungen&lt;/h2&gt;
+
+&lt;p&gt;Diese Installationsmethode des Joomla Update kann man wählen, falls die Joomla Aktualisierung über den Update Manager nicht erfolgreich war.&lt;/p&gt;
+
+&lt;iframe width=&quot;720&quot; height=&quot;539&quot; src=&quot;//www.youtube.com/embed/mMlTWLXWamc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Viel Erfolg bei Ihrem Joomla Update&lt;/p&gt;
+
+&lt;div id=&quot;comments&quot;&gt;
+&lt;h2&gt;Kommentare&lt;/h2&gt;
+&lt;div id=&quot;header&quot;&gt;
+Du möchtest einen Kommentar hinterlassen? &lt;a href=&quot;https://github.com/rmittl/joomlo/issues/2&quot;&gt;Dann klick hier! &lt;/a&gt;Bei joomlo.de wird über GitHub die Kommentarfunktion realisiert (Ein GitHub Account wird benötigt).
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://datejs.googlecode.com/svn/trunk/build/date-en-US.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+function loadComments(data) {
+// ...
+}
+
+$.ajax(&quot;https://api.github.com/repos/rmittl/joomlo/issues/2/comments&quot;, {
+headers: {Accept: &quot;application/vnd.github.full+json&quot;},
+success: function(msg){
+loadComments(msg);
+}
+});
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+function loadComments(data) {
+for (var i=0; i&lt;data.length; i++) {
+var cuser = data[i].user.login;
+var cuserlink = &quot;https://www.github.com/&quot; + data[i].user.login;
+var clink = &quot;https://github.com/rmittl/joomlo/issues/2#issuecomment&quot; + data[i].url.substring(data[i].url.lastIndexOf(&quot;/&quot;)+1);
+var cbody = data[i].body_html;
+var cavatarlink = data[i].user.avatar_url;
+var cdate = Date.parse(data[i].created_at).toString(&quot;yyyy-MM-dd HH:mm:ss&quot;);
+
+$(&quot;#comments&quot;).append(&quot;&lt;div class=&#39;comment&#39;&gt;&lt;div class=&#39;commentheader&#39;&gt;&lt;div class=&#39;commentgravatar&#39;&gt;&quot; + &#39;&lt;img src=&quot;&#39; + cavatarlink + &#39;&quot; alt=&quot;&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&#39; + &quot;&lt;/div&gt;&lt;a class=&#39;commentuser&#39; href=\&quot;&quot;+ cuserlink + &quot;\&quot;&gt;&quot; + cuser + &quot;&lt;/a&gt;&lt;a class=&#39;commentdate&#39; href=\&quot;&quot; + clink + &quot;\&quot;&gt;&quot; + cdate + &quot;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#39;commentbody&#39;&gt;&quot; + cbody + &quot;&lt;/div&gt;&lt;/div&gt;&quot;);
+}
+}
+&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 20 Oct 2014 18:40:14 +0200</pubDate>
+        <link>http://www.joomlo.de/2014/10/20/Joomla-Update/</link>
+        <guid isPermaLink="true">http://www.joomlo.de/2014/10/20/Joomla-Update/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Buttonleiste im Joomla! Backend wieder anzeigen</title>
+        <description>&lt;p&gt;Es gibt verschiedene Gründe warum die Buttonleiste Adminbereich des Joomla! Backends fehlen, hierzu zählen auch die Speichern &amp;amp; Schließen Button im Beitrag. Falls man gerade auf die neueste Joomla! 3 von 2.5 das Upgrade durchgeführt hat, könnte der Cache die Ursache sein. Um dies zu lösen einfach Joomla! und Browsercache leeren und die Seite mit F5 neu laden. Beim Einsatz verschiedener Komponenten wie z. B. JSN Poweradminmoduls oder einfach falscher Bedienung kann dieses Verhalten auch auftreten.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/module-manager.png&quot; alt=&quot;&quot; title=&quot;Joomla! Buttonleiste&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Zum Einblenden geht man wie folgt vor:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;man geht auf im Joomla! Backend auf Erweiterung -&amp;gt; Module
+&lt;br /&gt;&lt;img src=&quot;/assets/erweiterung_module.png&quot; alt=&quot;Erweiterung Module&quot; title=&quot;Joomla! Buttonleiste&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;dann klickt man im linken Bereich auf Administrator
+&lt;br /&gt;&lt;img src=&quot;/assets/module_administrator.png&quot; alt=&quot;&quot; title=&quot;Joomla! Buttonleiste&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;sucht nach der Toolbar
+&lt;br /&gt;&lt;img src=&quot;/assets/suchen_toolbar.png&quot; alt=&quot;&quot; title=&quot;Joomla! Buttonleiste&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;setzte das Häcken bei Status für veröffentlicht
+&lt;br /&gt;&lt;img src=&quot;/assets/haken_toolbar.png&quot; alt=&quot;&quot; title=&quot;Joomla! Buttonleiste&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fertig und alles ist wie gewohnt.&lt;/p&gt;
+
+&lt;div id=&quot;comments&quot;&gt;
+&lt;h2&gt;Kommentare&lt;/h2&gt;
+&lt;div id=&quot;header&quot;&gt;
+Du möchtest einen Kommentar hinterlassen? &lt;a href=&quot;https://github.com/rmittl/joomlo/issues/1&quot;&gt;Dann klick hier! &lt;/a&gt;Bei joomlo.de wird über GitHub die Kommentarfunktion realisiert (Ein GitHub Account wird benötigt).
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://datejs.googlecode.com/svn/trunk/build/date-en-US.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+function loadComments(data) {
+// ...
+}
+
+$.ajax(&quot;https://api.github.com/repos/rmittl/joomlo/issues/1/comments&quot;, {
+headers: {Accept: &quot;application/vnd.github.full+json&quot;},
+success: function(msg){
+loadComments(msg);
+}
+});
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+function loadComments(data) {
+for (var i=0; i&lt;data.length; i++) {
+var cuser = data[i].user.login;
+var cuserlink = &quot;https://www.github.com/&quot; + data[i].user.login;
+var clink = &quot;https://github.com/rmittl/joomlo/issues/1#issuecomment&quot; + data[i].url.substring(data[i].url.lastIndexOf(&quot;/&quot;)+1);
+var cbody = data[i].body_html;
+var cavatarlink = data[i].user.avatar_url;
+var cdate = Date.parse(data[i].created_at).toString(&quot;yyyy-MM-dd HH:mm:ss&quot;);
+
+$(&quot;#comments&quot;).append(&quot;&lt;div class=&#39;comment&#39;&gt;&lt;div class=&#39;commentheader&#39;&gt;&lt;div class=&#39;commentgravatar&#39;&gt;&quot; + &#39;&lt;img src=&quot;&#39; + cavatarlink + &#39;&quot; alt=&quot;&quot; width=&quot;20&quot; height=&quot;20&quot;&gt;&#39; + &quot;&lt;/div&gt;&lt;a class=&#39;commentuser&#39; href=\&quot;&quot;+ cuserlink + &quot;\&quot;&gt;&quot; + cuser + &quot;&lt;/a&gt;&lt;a class=&#39;commentdate&#39; href=\&quot;&quot; + clink + &quot;\&quot;&gt;&quot; + cdate + &quot;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#39;commentbody&#39;&gt;&quot; + cbody + &quot;&lt;/div&gt;&lt;/div&gt;&quot;);
+}
+}
+&lt;/script&gt;
+
+</description>
+        <pubDate>Thu, 16 Oct 2014 17:40:14 +0200</pubDate>
+        <link>http://www.joomlo.de/joomla!/2014/10/16/buttonleiste-im-joomla-backend%20wieder-anzeigen/</link>
+        <guid isPermaLink="true">http://www.joomlo.de/joomla!/2014/10/16/buttonleiste-im-joomla-backend%20wieder-anzeigen/</guid>
+        
+        
+        <category>joomla!</category>
+        
+      </item>
+    
+      <item>
+        <title>Joomla - ein Content Management System</title>
+        <description>&lt;p&gt;Hier entsteht ein Blog rund um Joomla!….&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 25 Aug 2014 19:00:14 +0200</pubDate>
+        <link>http://www.joomlo.de/joomla/2014/08/25/seblod-neuen-beitrag-automatisch-kategorie-hinzufuegen%202/</link>
+        <guid isPermaLink="true">http://www.joomlo.de/joomla/2014/08/25/seblod-neuen-beitrag-automatisch-kategorie-hinzufuegen%202/</guid>
+        
+        
+        <category>joomla</category>
+        
+      </item>
+    
+      <item>
+        <title>Seblod - Neuen Beitrag automatisch einer Kategorie zuorden.</title>
+        <description>&lt;p&gt;Hier entsteht ein Blog rund um Joomla! Themen und Tutorials.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 25 Aug 2014 19:00:14 +0200</pubDate>
+        <link>http://www.joomlo.de/seblod/2014/08/25/Joomla...../</link>
+        <guid isPermaLink="true">http://www.joomlo.de/seblod/2014/08/25/Joomla...../</guid>
+        
+        <category>Seblod,</category>
+        
+        <category>Joomla,</category>
+        
+        <category>Beitrag,</category>
+        
+        <category>Kategorie</category>
+        
+        
+        <category>seblod</category>
+        
+      </item>
+    
+  </channel>
+</rss>
